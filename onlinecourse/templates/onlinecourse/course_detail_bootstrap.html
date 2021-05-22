@@ -59,11 +59,17 @@
              <div id="exam" class="collapse">
                 Click to expand elements within the collapse div
                 </div>  -->
+<<<<<<< HEAD
                 {% if user.is_authenticated %}
 
             <div class="container">
   <!-- <p>Click on the button to toggle between showing and hiding content.</p> -->
  <center> <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">START EXAM</button></center>
+=======
+            <div class="container">
+  <!-- <p>Click on the button to toggle between showing and hiding content.</p> -->
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">START EXAM</button>
+>>>>>>> df5c06c63e94bb459f2d265bff8256e1ae4ab279
   <div id="demo" class="collapse">
    
  
@@ -81,7 +87,11 @@
             -->
 
             <!-- A choice submission form example -->
+<<<<<<< HEAD
             <form id="questionform" action="submit/" method="post">
+=======
+            <form id="questionform" action="point to a submit view" method="post">
+>>>>>>> df5c06c63e94bb459f2d265bff8256e1ae4ab279
                         <!--... for each question in the course ... -->        
                         {% for question in course.question_set.all %}
                         <div class="card mt-1">
@@ -109,7 +119,10 @@
                        {% endfor %}  
                     <input class="btn btn-success btn-block" type="submit" value="Submit">
             </form> 
+<<<<<<< HEAD
             {% endif %}
+=======
+>>>>>>> df5c06c63e94bb459f2d265bff8256e1ae4ab279
 
             <!--Check here to see more details Bootstrap checkbox
              https://www.w3schools.com/bootstrap4/bootstrap_forms_inputs.asp-->
