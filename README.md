@@ -1,4 +1,4 @@
-# Online Course Provider
+# COURSE24 COURSE PROVIDER APP
 
 An Online Course Provider App where users can register as students and access courses including various tests and a user can register himself as teacher and can create courses and create exams .
 
